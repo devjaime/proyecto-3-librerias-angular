@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "user-widget": [
+        "dist/user-widget"
+      ],
+      "user-widget/*": [
+        "dist/user-widget/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
